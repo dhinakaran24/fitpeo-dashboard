@@ -14,8 +14,8 @@ const Main = () => {
       <div className="row">
         <div className="col-2">
           <div className="vertical-bar  w-30 float-left ">
-            <h3 className=" logo text-dark mx-2  mb-3 pt-2 ">
-              <span className=" text-light mx-1  ">
+            <h3 className=" logo text-dark mx-1 mb-3 pt-2 ">
+              <span className=" text-light ">
                 <LuLayoutDashboard />
               </span>
               Dashboard
@@ -27,7 +27,7 @@ const Main = () => {
                   <h6 classname="nav-item ">
                     <Link
                       to="/"
-                      className="list-unstyled  text-light fst-italic hover-effect-css "
+                      className="list-unstyled text-light fst-italic hover-effect-css "
                     >
                       <span className="px-2">
                         <FaAnglesRight />
